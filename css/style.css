@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400');
 
 body {
-  background: #ffffff;
+  background: #FFFFE0/*#ffffff*/;
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -27,26 +27,31 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  color: #3d3d3f;
+  color: red /*#3d3d3f*/;
   font-size: 50px;
   line-height: normal;
 }
 
 h2 {
-  color: #575757;
+  color: black/*#575757*/;
   font-size: 40px;
   line-height: 52px;
   margin-top: 0px;
 }
 
 h4 {
-  color: #797979;
+  color: black/*#797979*/;
   font-size: 18px;
   font-weight: normal;
 }
 
+h5 {
+  color: black 
+
+}
+
 p {
-    color: #878787;
+    color: black/*#878787*/;
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
@@ -54,7 +59,7 @@ p {
 }
 
 strong, span {
-  color: #878787;
+  color: black/*#878787*/;
   font-weight: normal;
 }
 
@@ -415,7 +420,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit {
-  background: #000000;
+  background: black /*#000000*/;
   border: none;
   border-radius: 50px;
   color: #ffffff;
@@ -427,7 +432,7 @@ a:hover, a:active, a:focus {
 
 #contact button#submit:hover {
   background: #d7b065;
-  color: #ffffff;
+  color: black /*#ffffff*/;
 }
 
 
